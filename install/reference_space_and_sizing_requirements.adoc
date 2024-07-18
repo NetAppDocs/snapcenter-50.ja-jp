@@ -1,0 +1,78 @@
+---
+permalink: install/reference_space_and_sizing_requirements.html 
+sidebar: sidebar 
+keywords: SnapCenter 
+summary: SnapCenter サーバをインストールする前に、スペースとサイジングの要件を十分に理解しておく必要があります。また、利用可能なシステムおよびセキュリティ更新プログラムを適用する必要があります。 
+---
+= スペースとサイジングの要件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapCenter サーバをインストールする前に、スペースとサイジングの要件を十分に理解しておく必要があります。また、利用可能なシステムおよびセキュリティ更新プログラムを適用する必要があります。
+
+|===
+| 項目 | 要件 
+
+
+ a| 
+オペレーティングシステム
+ a| 
+Microsoft Windows
+
+英語版、ドイツ語版、日本語版、簡体字中国語版のみがサポートされています。
+
+サポートされているバージョンの最新情報については、を参照してください https://imt.netapp.com/matrix/imt.jsp?components=116859;&solution=1257&isHWU&src=IMT["NetApp Interoperability Matrix Tool"^]。
+
+
+
+ a| 
+最小CPU数
+ a| 
+4コア
+
+
+
+ a| 
+最小RAM
+ a| 
+8 GB
+
+
+NOTE: MySQL Serverのバッファプールは、RAMの合計容量の20%を使用します。
+
+
+
+ a| 
+SnapCenter サーバソフトウェアおよびログ用のハードドライブの最小容量
+ a| 
+4 GB
+
+
+NOTE: SnapCenterサーバがインストールされているドライブと同じドライブにSnapCenterリポジトリがある場合は、10 GBを使用することを推奨します。
+
+
+
+ a| 
+SnapCenter リポジトリ用のハードドライブの最小容量
+ a| 
+6 GB
+
+
+NOTE: メモ： SnapCenter リポジトリがインストールされているドライブに SnapCenter サーバがある場合は、 10GB にすることを推奨します。
+
+
+
+ a| 
+必要なソフトウェアパッケージ
+ a| 
+* Microsoft .NET Framework 4.7.2以降
+* Windows Management Framework（WMF）4.0以降
+* PowerShell 4.0以降
+
+
+用。 NET固有のトラブルシューティング情報。を参照してください。 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/SnapCenter_upgrade_or_install_fails_with_%22This_KB_is_not_related_to_the_OS%22["インターネットに接続されていないレガシーシステムでは、SnapCenter のアップグレードまたはインストールが失敗します"^]
+
+|===

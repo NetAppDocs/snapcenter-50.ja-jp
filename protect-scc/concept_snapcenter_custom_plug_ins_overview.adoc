@@ -1,0 +1,32 @@
+---
+permalink: protect-scc/concept_snapcenter_custom_plug_ins_overview.html 
+sidebar: sidebar 
+keywords: SnapCenter Custom Plug-ins 
+summary: 使用するアプリケーション用のカスタムプラグインを開発し、 SnapCenter を使用してそれらのアプリケーションのバックアップ、リストア、クローニングを行うことができます。カスタムプラグインは、他の SnapCenter プラグインと同様に NetAppSnap Center ソフトウェアのホスト側コンポーネントとして機能し、アプリケーションに対応したリソースのデータ保護と管理を実現します。 
+---
+= SnapCenterカスタムプラグインの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用するアプリケーション用のカスタムプラグインを開発し、 SnapCenter を使用してそれらのアプリケーションのバックアップ、リストア、クローニングを行うことができます。カスタムプラグインは、他の SnapCenter プラグインと同様に NetApp SnapCenter ソフトウェアのホスト側コンポーネントとして機能し、アプリケーションに対応したリソースのデータ保護と管理を実現します。
+
+Custom Plug-ins をインストールすると、 SnapCenter と NetApp SnapMirror テクノロジを使用して別のボリュームのバックアップセットのミラーコピーを作成し、 NetApp SnapVault テクノロジを使用してディスクツーディスクのバックアップレプリケーションを実行できます。カスタムプラグインは、WindowsとLinuxのどちらの環境でも使用できます。
+
+
+NOTE: SnapCenterCLIでは、SnapCenterカスタムプラグインコマンドはサポートされません。
+
+NetAppにはStorageプラグインが用意されており、SnapCenterに組み込まれているカスタムプラグインフレームワークを使用して、ONTAPストレージ上のデータボリュームのデータ保護処理を実行できます。
+
+カスタムプラグインとストレージプラグインは、[ホストの追加]ページからインストールできます。
+
+link:task_add_hosts_and_install_plug_in_packages_on_remote_hosts_scc.html["ホストを追加し、プラグインパッケージをリモートホストにインストールする。"^]
+
+NetAppは、MySQL、MaxDB、DB2、Sybase、DPGLUE、 MongoDB、ORASCPM、PostgreSQLカスタムプラグイン。これらのプラグインはからダウンロードできます https://automationstore.netapp.com/home.shtml["NetAppストレージ自動化ストア"^]。
+
+
+NOTE: SnapCenterのサポートポリシーでは、SnapCenterカスタムプラグインフレームワーク、コアエンジン、関連するAPIのサポートが対象になります。プラグインのソースコードと、カスタムプラグインフレームワーク上に構築された関連スクリプトはサポート対象外です。
+
+独自のカスタムプラグインを作成するには、を参照して link:concept_develop_a_plug_in_for_your_application.html["アプリケーション用のプラグインを開発"^]ください。

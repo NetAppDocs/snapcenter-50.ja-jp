@@ -1,0 +1,100 @@
+---
+permalink: protect-hana/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_plug_in_for_sap_hana_database.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: ホストを追加してプラグインパッケージをインストールする前に、すべての要件を満たしておく必要があります。SnapCenter Plug-in for SAP HANA Database は、 Windows と Linux のどちらの環境でも使用できます。 
+---
+= ホストを追加して SnapCenter Plug-in for SAP HANA Database をインストールするための前提条件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ホストを追加してプラグインパッケージをインストールする前に、すべての要件を満たしておく必要があります。SnapCenter Plug-in for SAP HANA Database は、 Windows と Linux のどちらの環境でも使用できます。
+
+* Java 1.8（64ビット）をホストにインストールしておく必要があります。
++
+
+NOTE: IBM Javaはサポートされていません。
+
+* SAP HANA データベースの対話型端末（ HDBSQL クライアント）をホストにインストールしておく必要があります。
+* Windows の場合は、「 LocalSystem 」 Windows ユーザを使用してプラグインの Creator Service が実行されている必要があります。これは、 Plug-in for SAP HANA Database がドメイン管理者としてインストールされている場合のデフォルトの動作です。
+* Windowsの場合は、ユーザストアキーをシステムユーザとして作成する必要があります。
+* Windowsホストにプラグインをインストールするときに、組み込みでないクレデンシャルを指定した場合やユーザがローカルワークグループに属している場合は、ホストのUACを無効にする必要があります。SnapCenter Plug-in for Microsoft Windows は、 Windows ホストに SAP HANA プラグインを使用してデフォルトで導入されます。
+* Linuxホストの場合、HDBのセキュアなユーザストアキーにはHDBSQL OSユーザとしてアクセスします。
+* SnapCenter サーバが、 Plug-in for SAP HANA Database ホストの 8145 ポートまたはカスタムポートにアクセスできる必要があります。
+
+
+
+
+== Windowsホスト
+
+* リモートホストに対するローカルログイン権限を持つローカル管理者権限を持つドメインユーザが必要です。
+* Plug-in for SAP HANA Database を Windows ホストにインストールする際に、 SnapCenter Plug-in for Microsoft Windows が自動的にインストールされます。
+* rootユーザまたはroot以外のユーザに対してパスワードベースのSSH接続を有効にしておく必要があります。
+* Java 1.8（64ビット）をWindowsホストにインストールしておく必要があります。
++
+http://www.java.com/en/download/manual.jsp["すべてのオペレーティングシステム用のJavaダウンロード"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["NetApp Interoperability Matrix Tool"]
+
+
+
+
+
+== Linuxホスト
+
+* rootユーザまたはroot以外のユーザに対してパスワードベースのSSH接続を有効にしておく必要があります。
+* Java 1.8（64ビット）をLinuxホストにインストールしておく必要があります。
++
+http://www.java.com/en/download/manual.jsp["すべてのオペレーティングシステム用のJavaダウンロード"]
+
++
+https://imt.netapp.com/matrix/imt.jsp?components=117015;&solution=1259&isHWU&src=IMT["NetApp Interoperability Matrix Tool"]
+
+* Linux ホストで実行されている SAP HANA データベースを Plug-in for SAP HANA Database のインストール時にインストールすると、 SnapCenter Plug-in for UNIX が自動的にインストールされます。
+* プラグインのインストールには、デフォルトのシェルとして* bash *が必要です。
+
+
+
+
+== 補助コマンド
+
+SnapCenter Plug-in for SAP HANAで補足コマンドを実行するには、ファイルにそのコマンドを含める必要があります `allowed_commands.config` 。
+
+`allowed_commands.config` ファイルは、SnapCenter Plug-in for SAP HANAディレクトリの「etc」サブディレクトリにあります。
+
+.Windowsホスト
+デフォルト： `C:\Program Files\NetApp\SnapCenter\HANA\etc\allowed_commands.config`
+
+カスタムパス： `<Custome_Directory>\NetApp\SnapCenter\HANA\etc\allowed_commands.config` Windowsホスト：
+
+.Linuxホスト
+デフォルト： `/opt/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+カスタムパス： `<Custome_Directory>/NetApp/snapcenter/scc/etc/allowed_commands.config`
+
+プラグインホストで追加のコマンドを許可するには、エディタでファイルを開きます `allowed_commands.config` 。各コマンドを別 々 の行に入力します。大文字と小文字は区別されません。例えば、
+
+コマンド:mount
+
+コマンド：umount
+
+完全修飾パス名を指定してください。パス名にスペースが含まれている場合は、パス名を引用符（"）で囲みます。例えば、
+
+コマンド："C：\Program Files\NetApp\SnapCreator commands\sdcli.exe"
+
+コマンド：myscript.bat
+
+ファイルが存在しない場合は `allowed_commands.config` 、コマンドまたはスクリプトの実行がブロックされ、次のエラーでワークフローが失敗します。
+
+"[/mnt/mount-a]の実行は許可されていません。プラグインホストのファイル%sにコマンドを追加して許可します。"
+
+コマンドまたはスクリプトがに存在しないと、 `allowed_commands.config`コマンドまたはスクリプトの実行がブロックされ、次のエラーでワークフローが失敗します。
+
+"[/mnt/mount-a]の実行は許可されていません。プラグインホストのファイル%sにコマンドを追加して許可します。"
+
+
+NOTE: ワイルドカードエントリ（*）を使用してすべてのコマンドを許可しないでください。
