@@ -6862,8 +6862,6 @@
   <block id="f99510060ae91e89fdabd39c0e222578" category="paragraph">外部アーカイブログファイルの場所を指定する場合は、 * 外部アーカイブログの場所を指定 * を選択します。</block>
   <block id="5207ebbbc32a1a4bd295b43498ad0913" category="paragraph">バックアップの一環としてアーカイブログが削除された場合に、必要なアーカイブログのバックアップを手動でマウントした場合は、リカバリ用の外部アーカイブログの場所として、マウントしたバックアップのパスを指定する必要があります。</block>
   <block id="07a2a06d39605aa9ff4e7d9c550b1f32" category="admonition">外部ログの場所としてリストする前に、マウントパスのパスと内容を確認する必要があります。</block>
-  <block id="58fa648380c73e758318652a30ff424d" category="inline-link">NetAppテクニカルレポート4591：『Database Data Protection Backup、Recovery、Replication、and DR』</block>
-  <block id="5e8af025f634ab1bdb43a04eac96f1c3" category="list-text"><block ref="5e8af025f634ab1bdb43a04eac96f1c3" category="inline-link-rx"></block></block>
   <block id="d4242c48bd0d5641374fbc107c7d9f14" category="inline-link">ORA-00308 エラーで処理が失敗します</block>
   <block id="79ca58af823b457a1798d606cfd6d6ae" category="list-text"><block ref="79ca58af823b457a1798d606cfd6d6ae" category="inline-link-rx"></block></block>
   <block id="73ee3801ba5f54ed62d44865741a046d" category="paragraph">アーカイブログボリュームが保護されておらず、データボリュームが保護されている場合は、セカンダリバックアップからリカバリを伴うリストアを実行できません。リストアするには、「 * リカバリなし * 」を選択する必要があります。</block>
@@ -9028,4 +9026,6 @@
   <block id="60bea4969590084ae9e74b765b209fad" category="sidebar">SnapCenterプラグインパッケージのアンインストール</block>
   <block id="fdcd3d6f45be97e0e24b4e793a81fac0" category="sidebar">SnapCenterサーバとプラグインのアップグレード</block>
   <block id="8693aef17f2d371968a29ad0e0dff726" category="sidebar">アップグレードワークフロー</block>
+  <block id="9e19caeb431a5e29a1a63e3cee4b36c9" category="inline-link">ONTAPによるOracleデータ保護</block>
+  <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
 </blocks>
