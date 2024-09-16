@@ -2350,12 +2350,6 @@
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">サポートされるブラウザ</block>
   <block id="986c37480b1f1c2e443504b38b6361b4" category="list-text">クロム</block>
   <block id="9b5c943f3d46ea12de31408c6912a1e9" category="paragraph">v66 を使用している場合、 SnapCenter GUI の起動に失敗することがあります。</block>
-  <block id="ebe4f447bd3316e4f81ab2a6d2f26810" category="list-text">Internet Explorer</block>
-  <block id="74e84f9442fdb7717385ee092400869a" category="paragraph">IE 10以前のバージョンを使用している場合、SnapCenter UIが正しくロードされません。IE 11にアップグレードする必要があります。</block>
-  <block id="8b45fc0c82a493bebd2ae705881299e0" category="list-text">デフォルトレベルのセキュリティのみがサポートされます。</block>
-  <block id="8c39fdaac8e8c7ec5824fd1acda14c9a" category="paragraph">Internet Explorerのセキュリティ設定を変更すると、ブラウザの表示に重大な問題が発生します。</block>
-  <block id="c5c74f2a0046f37ca93f6d8e3c775364" category="list-text">Internet Explorerの互換表示を無効にする必要があります。</block>
-  <block id="a5c41f715c1b8a880253846c025624e9" category="list-text">Microsoft Edge</block>
   <block id="0399ed9d4322925cd652419c6e80ccbb" category="paragraph">サポートされているバージョンの最新情報については、を参照してください<block ref="6b3ef4eef08ac0feed960a06e1cce7e2" category="inline-link-rx"></block>。</block>
   <block id="ba7cbf773bd0f0004c4d97fba5034cdb" category="summary">サポートされるストレージシステム、アプリケーション、およびデータベースを確認しておく必要があります。</block>
   <block id="1e1ed4854c77f284f3e97b0843b6e570" category="doc">サポートされるストレージシステムとアプリケーション</block>
@@ -9030,4 +9024,5 @@
   <block id="d118010bb2b3542007c6749bfd237123" category="list-text"><block ref="d118010bb2b3542007c6749bfd237123" category="inline-link-rx"></block></block>
   <block id="5438f8c09e5ea2be33bd2ce16c8b5123" category="admonition">SnapCenter 5.0以降では、SVM管理者ユーザはREST APIでのみサポートされます。SVM管理者以外を使用してロールを作成する場合は、ZAPIを使用してください。</block>
   <block id="3955db71dd681bf23ceee85c567a0129" category="admonition">SnapCenter 5.0以降では、クラスタ管理者ユーザはREST APIでのみサポートされます。クラスタ管理者以外のユーザを使用してロールを作成する場合は、ZAPIを使用してください。</block>
+  <block id="f5a551e6a3161ca6d9ee33d926d734d5" category="list-text">Microsoft Edge 110.0.1587.17以降</block>
 </blocks>
