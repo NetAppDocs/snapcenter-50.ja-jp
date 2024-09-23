@@ -26,7 +26,7 @@ link:task_back_up_resource_groups_sap_hana.html["リソースグループのバ�
 
 * 1つ以上のテナントデータベースが停止しているときにファイルベースのバックアップを作成する場合は、コマンドレットを使用して、HANAのプロパティファイルでallow_file_based_backup_IFINACTIVE_Tenants_presentパラメータを* YES *に設定し `Set-SmConfigSettings` ます。
 +
-コマンドレットで使用できるパラメータとその説明については、 Get-Help_command_name _ を実行して取得できます。または、 https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter ソフトウェアコマンドレットリファレンスガイド"]
+コマンドレットで使用できるパラメータとその説明については、 Get-Help_command_name _ を実行して取得できます。または、 https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"]
 
 * 休止、Snapshot、および休止解除の処理を実行するプリコマンドとポストコマンドの場合は、該当するコマンドがプラグインホストのコマンドリストで次のパスから使用できるかどうかを確認する必要があります。
 +

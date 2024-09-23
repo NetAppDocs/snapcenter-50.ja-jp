@@ -23,7 +23,7 @@ NOTE: SnapCenter では、異なるクラスタにある同じ名前の SVM は�
 * ホストを追加し、プラグインをインストールし、リソースを検出（更新）し、プラグインを設定します。
 * Invoke-SmConfigureResourcesを実行して、既存のMicrosoft SQL ServerデータベースをローカルディスクからNetApp LUN（またはその逆）に移動します。
 +
-コマンドレットの実行方法については、を参照してください。 https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter ソフトウェアコマンドレットリファレンスガイド"]
+コマンドレットの実行方法については、を参照してください。 https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmll["SnapCenter ソフトウェアコマンドレットリファレンスガイド"]
 
 * VMware RDM LUNまたはVMDKにあるSQLデータベースをSnapCenter Serverを使用して保護する場合は、SnapCenter Plug-in for VMware vSphereを導入してSnapCenterに登録する必要があります。詳細については、 SnapCenter Plug-in for VMware vSphere のドキュメントを参照してください。
 +

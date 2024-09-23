@@ -44,7 +44,7 @@ VMDKおよびRDM構成ではディザスタリカバリ（DR）はサポート�
 * フェイルオーバー中に作成されたSnapCenter Plug-in for SQL Serverのバックアップは、UIまたは次のコマンドレットを使用して削除できます。 `Remove-SmBackup`
 * フェイルオーバー後に一部のリソースをDR以外のモードにする場合は、次のコマンドレットを使用します。 `Remove-SmResourceDRMode`
 +
-詳細については、を参照して https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]ください。
+詳細については、を参照して https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]ください。
 
 * SnapCenterサーバは、DRモードまたは非DRモードの個 々 のストレージリソース（SQLデータベース）を管理しますが、DRモードまたは非DRモードのストレージリソースを含むリソースグループは管理しません。
 

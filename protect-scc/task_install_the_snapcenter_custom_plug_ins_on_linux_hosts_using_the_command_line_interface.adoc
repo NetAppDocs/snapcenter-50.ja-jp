@@ -35,7 +35,7 @@ SnapCenterカスタムプラグインは、SnapCenterユーザインターフェ
 ----
 . Add-Smhostコマンドレットと必要なパラメータを使用して、SnapCenterサーバにホストを追加します。
 +
-コマンドで使用できるパラメータとその説明については、 RUNNING Get Help command_name _ を使用して参照できます。または、を参照することもできます https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドで使用できるパラメータとその説明については、 RUNNING Get Help command_name _ を使用して参照できます。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 . SnapCenterにログインし、UIまたはPowerShellコマンドレットを使用してカスタムプラグインをアップロードします。
 +
@@ -45,6 +45,6 @@ UIからカスタムプラグインをアップロードするには、セクシ
 PowerShellコマンドレットの詳細については、SnapCenterのコマンドレットのヘルプを使用するか、コマンドレットのリファレンス情報を参照してください。
 
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]です。
+https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]です。
 
 

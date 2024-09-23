@@ -75,7 +75,7 @@ indexpage:
   - title: その他のリソース
     links:
     - title: コマンドレットリファレンスガイド
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886895
+      url: https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html
     - title: コマンドリファレンスガイド
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886896
     - title: 以前のバージョンのSnapCenterのドキュメント

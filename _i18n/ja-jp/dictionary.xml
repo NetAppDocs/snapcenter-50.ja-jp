@@ -211,7 +211,6 @@
   <block id="12c1d190435624b74e3183fda4ca5a14" category="list-text">Get-SmBackupReportコマンドレットを使用して、バックアップジョブのステータスを表示します。</block>
   <block id="bb624c9832608f83e8cfb32c0a769474" category="paragraph">次に、指定した日付に実行されたすべてのジョブのジョブ概要レポートを表示する例を示します。</block>
   <block id="186767ddfa4a5b30e2b4a7d5eb5fce25" category="inline-link">SnapCenter ソフトウェアコマンドレットリファレンスガイド</block>
-  <block id="297d7cc58a32f05d08a5e04d978b26c4" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="8c86f52713133502cb75e1adb8926660" category="paragraph">キューに登録されているクローニング処理をキャンセルできます。</block>
   <block id="bde3c82af55c53b214a27ef87c921a0d" category="paragraph">クローニング処理をキャンセルするには、SnapCenter管理者またはジョブ所有者としてログインする必要があります。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">タスクの内容</block>
@@ -1123,7 +1122,6 @@
   <block id="7ef2193aefa38af010eb09987c5e35ec" category="paragraph">SnapCenterには、ほとんどの機能をREST APIが含まれており、任意のオーケストレーションソフトウェアと統合できます。また、Windows PowerShellコマンドレットやコマンドラインインターフェイスも使用できます。</block>
   <block id="66ee30700091538587a27acf4ecad692" category="inline-link">REST APIの概要</block>
   <block id="9a9a51f1993f5461829d8466a8fb013e" category="paragraph">REST APIの詳細については、を参照してください<block ref="ea5c19f623f4ce0e4a3a37a512890f94" category="inline-link-rx"></block>。</block>
-  <block id="c53d4394b4b820e8039b31483c1dfd5e" category="paragraph">Windowsコマンドレットの詳細については、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="34b88b9f409afc7274c8a769ee450883" category="inline-link">SnapCenter ソフトウェアコマンドリファレンスガイド</block>
   <block id="9f41dc9894f346b6e32aabf91c683469" category="paragraph">UNIXコマンドの詳細については、を参照してください<block ref="a6fc2394a8b2095d1929066d59f6fcc9" category="inline-link-rx"></block>。</block>
   <block id="44764ea524336d8792197315c021bc65" category="list-text">データ保護のダッシュボードとレポートの一元化</block>
@@ -1518,7 +1516,6 @@
   <block id="d9ea666bfbe8444fa88062f4874d0b22" category="list-text">Add-SmServerCluster</block>
   <block id="b8313647a63a15fb0ab7d46b778ba618" category="list-text">アドSmServer</block>
   <block id="cd8ca61b82992f73c74f955bf0f47f20" category="list-text">削除- SmServerCluster</block>
-  <block id="7f9c0f5934cfc6ce4aee0b7246838070" category="paragraph">詳細については、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="e79efa970901c1191fca1b278b2ff2d9" category="section-title">F5のその他の設定情報</block>
   <block id="ed9ff4b1a617150f86eae1035449f732" category="list-text">SnapCenter をインストールしてハイアベイラビリティ用に設定したら、 F5 クラスタ IP を指すように SnapCenter デスクトップのショートカットを編集します。</block>
   <block id="d04228e20798411b28cae6cb653df92c" category="list-text">SnapCenterサーバ間でフェールオーバーが発生し、既存のSnapCenterセッションも存在する場合は、ブラウザを閉じてSnapCenterに再度ログオンする必要があります。</block>
@@ -1850,7 +1847,6 @@
   <block id="68dae2573ac7874d6dd234af4fa4c752" category="list-text">SnapCenter サーバで、 PowerShell ウィンドウを開き、 MySQL パスワードをリセットします。</block>
   <block id="aa5c2438bb48bc6f9fc91294d9f5f2c1" category="list-text">SnapCenterAdminアカウントのSnapCenterサーバとの接続セッションを開始するには、Open-SmConnectionコマンドレットを実行します。</block>
   <block id="677b5668995b5d565b03294fb7b16727" category="list-text">Set-SmRepositoryPasswordを実行してMySQLパスワードをリセットします。</block>
-  <block id="cbd0c53facaa2e4efe489085637a8c4a" category="paragraph">コマンドレットの詳細については、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="bdc5e2c886d9f1d7c2db87ea0140c771" category="list-text">コマンドプロンプトを開き、mysql -u root -pを実行してMySQLにログインします。</block>
   <block id="4c6cef07724f31f81802bd1558b3066b" category="paragraph">パスワードの入力を求められます。パスワードのリセット時に指定したクレデンシャルを入力します。</block>
   <block id="730761cf69bd21652f5f5b9dc5170f63" category="list-text">データベースから試用版ライセンスを削除します。</block>
@@ -2020,7 +2016,6 @@
   <block id="8e5ca8947d2ccd889e10c25276502da0" category="section-title">多要素認証（MFA）を有効にする</block>
   <block id="c8010626798701f4dd6505ffd8c7bab3" category="paragraph">SnapCenterサーバのMFA機能は、PowerShellコマンドを使用して有効にできます。</block>
   <block id="c746671a4c0cb7e7a37abe538fe2107e" category="list-text">同じAD FSで他のアプリケーションが設定されている場合、SnapCenterはSSOベースのログインをサポートします。一部のAD FS構成では、AD FSセッションの持続性に応じて、セキュリティ上の理由からSnapCenterでユーザ認証が必要になる場合があります。</block>
-  <block id="c59a6781697ef83fc73473631811d33c" category="list-text">コマンドレットで使用できるパラメータとその説明は、を実行して確認できます<block ref="b306feeed6ddda97d08ef1f2a0ba62d9" prefix=" " category="inline-code"></block>。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="b2f9ddbfbf0bb6739ee75e8c2a6ac138" category="list-text">Windows Active Directoryフェデレーションサービス（AD FS）がそれぞれのドメインで稼働している必要があります。</block>
   <block id="4ceb1d36799251586ba061a0c2b9a7a8" category="list-text">Azure MFA、Cisco Duoなど、AD FSがサポートする多要素認証サービスが必要です。</block>
   <block id="cb7f79bbeb52e82fa7926e0724dba11e" category="list-text">SnapCenterサーバとAD FSサーバのタイムスタンプは、タイムゾーンに関係なく同じにする必要があります。</block>
@@ -2530,7 +2525,6 @@
   <block id="3c15d7a6541e416f0d13373ee63fd0c0" category="paragraph">共有ドライブまたはネットワークマウントドライブはサポートされていません。</block>
   <block id="d90e9077285809de90243e91ed3a10bc" category="list-text">syslogサーバの設定でUDPプロトコルが使用されている場合、ポートが停止しているか使用できないことによるエラーは、SnapCenterでエラーまたはアラートとしてキャプチャできません。</block>
   <block id="b398a3651d49f0eb14349eff9cfdec58" category="list-text">Set-SmAuditSettingsコマンドとGet-SmAuditSettingsコマンドを使用して、監査ログを構成できます。</block>
-  <block id="54e1a634e361611f670e62d0308d36e4" category="paragraph">コマンドレットで使用できるパラメータとその説明は、Get-Help Command_nameを実行して確認できます。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="b081c433d361cfcb39c391b352a6f526" category="list-text">[*設定*]ページで、[*設定*]&gt;[*グローバル設定*]&gt;[*監査ログ設定*]の順に選択します。</block>
   <block id="f3645e45f905156003cb2bb7741a86f3" category="list-text">[Audit log]セクションで、詳細を入力します。</block>
   <block id="bc622cdadddc54b812b2df6bb7115372" category="list-text">監査ログ・ディレクトリ*および*監査チェックサム・ログ・ディレクトリ*を入力します</block>
@@ -2880,7 +2874,6 @@
   <block id="059fe1123e48629ed1d6514462f294b2" category="doc">SnapCenterのCA証明書を有効にする</block>
   <block id="07d333070d0435446600383ad0be9b41" category="list-text">CA証明書を有効または無効にするには、Set-SmCertificateSettingsコマンドレットを使用します。</block>
   <block id="1962fbbcfa72e74639e8c071188af514" category="list-text">SnapCenterサーバの証明書のステータスは、Get-SmCertificateSettingsコマンドレットを使用して表示できます。</block>
-  <block id="755e7632de3b5847758e69da1f08f241" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照して<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>ください。</block>
   <block id="1240073aadeb78a3e72b1cedfb5cec2f" category="list-text">設定ページで、 * 設定 * &gt; * グローバル設定 * &gt; * CA 証明書設定 * と進みます。</block>
   <block id="a6e94fec2cfcadd0e75ac025786feb7f" category="list-text">*<block ref="ce7f8fe6cf825357e942960470acb5bc" category="inline-image-macro-rx" type="image"></block>*は、有効になっているかプラグインホストに割り当てられているCA証明書がないことを示します。</block>
   <block id="7e3928e5fbab66336d372237e4cbdf9e" category="list-text">**<block ref="8a3d7884daddd17bfb2b09432e2ce305" category="inline-image-macro-rx" type="image"></block>は、CA証明書が正常に検証されたことを示します。</block>
@@ -2989,7 +2982,6 @@
   <block id="1f351ed7a1738376fcd9632d3db7e0dd" category="paragraph">デフォルトのGUI URLは、SnapCenterサーバがインストールされているサーバ（_\https://server:8146_).）のデフォルトポート8146へのセキュアな接続ですSnapCenter のインストール時に別のサーバポートを指定した場合は、そのポートが代わりに使用されます。</block>
   <block id="e559ce2499d2c5cb24993b681f9f514b" category="inline-link">外部ネットワークからクラスタIPアドレスにアクセスできない</block>
   <block id="59985d4c0ad9df334fed4d44ff0991fa" category="paragraph">ハイアベイラビリティ（HA）環境では、仮想クラスタ\https://Virtual_Cluster_IP_or_FQDN:8146_.を使用してSnapCenterにアクセスする必要がありますInternet Explorer（IE）で_\https://Virtual_Cluster_IP_or_FQDN:8146_に移動してもSnapCenter UIが表示されない場合は、各プラグインホストのIEで仮想クラスタのIPアドレスまたはFQDNを信頼済みサイトとして追加するか、各プラグインホストでIEのセキュリティ強化を無効にする必要があります。詳細については、を参照してください<block ref="f89494b555e2d92920e0ac70f10ea089" category="inline-link-rx"></block>。</block>
-  <block id="9ac686fd96599e09c27d9c05052d5766" category="paragraph">SnapCenter GUIに加えて、PowerShellコマンドレットを使用してスクリプトを作成し、設定、バックアップ、リストアの各処理を実行できます。一部のコマンドレットは、SnapCenterのリリースごとに変更されている場合があります。詳細については、を<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block> 参照してください。</block>
   <block id="d6b96565adbb70c53ae14b5070be8651" category="admonition">SnapCenter への初回ログイン時は、インストールプロセスで指定したクレデンシャルを使用してログインする必要があります。</block>
   <block id="31a7d97d557b06d288bae46db80c8d67" category="list-text">ローカルホストのデスクトップにあるショートカット、インストールの終了時に表示された URL 、または SnapCenter 管理者から提供された URL から、 SnapCenter を起動します。</block>
   <block id="578cd680813c62df612b39c490acb2bc" category="list-text">ユーザー資格情報を入力します。</block>
@@ -3748,7 +3740,6 @@
   <block id="2cda512470ebd52d3c5ba685f87bb1fb" category="list-text">SAP HANAシステムレプリケーションのバックアップを作成するには、SAP HANAシステムのすべてのリソースを1つのリソースグループに追加することを推奨します。これにより、テイクオーバー/フェイルバックモードでのシームレスなバックアップが保証されます。</block>
   <block id="ae75553103cbeaaaa3b0e4002805ae6f" category="paragraph"><block ref="ae75553103cbeaaaa3b0e4002805ae6f" category="inline-link-macro-rx"></block></block>
   <block id="961e6abd0c7a72786d3641390a4dea5f" category="list-text">1つ以上のテナントデータベースが停止しているときにファイルベースのバックアップを作成する場合は、コマンドレットを使用して、HANAのプロパティファイルでallow_file_based_backup_IFINACTIVE_Tenants_presentパラメータを* YES *に設定し<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> ます。</block>
-  <block id="633ff87a38ba5733ad482699222e5df6" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 Get-Help_command_name _ を実行して取得できます。または、<block ref="b70cb1971d6e57b9289aed553ef357cb" category="inline-link-rx"></block></block>
   <block id="734b47c3d3034ecc47486b3b7c947423" category="list-text">休止、Snapshot、および休止解除の処理を実行するプリコマンドとポストコマンドの場合は、該当するコマンドがプラグインホストのコマンドリストで次のパスから使用できるかどうかを確認する必要があります。</block>
   <block id="19650f12fd9f269a497d4edc60754137" category="paragraph">Windowsの場合：_ C：\Program Files\NetApp\SnapCenter \Snapcenter Plug-in Creator\etc\allowed_commands _list .txt_</block>
   <block id="e7b4efc5dd5b16a36c26e91652b78194" category="paragraph">Linuxの場合：_/var/opt/snapcenter/scc/allowed _commands _list.txt_</block>
@@ -3787,7 +3778,6 @@
   <block id="15fda0d23b806181f091668c1c1e55bf" category="paragraph">リソース（データベース）またはリソースグループのバックアップを作成できます。バックアップのワークフローには、計画、バックアップするデータベースの特定、バックアップポリシーの管理、リソースグループの作成とポリシーの適用、バックアップの作成、処理の監視が含まれます。</block>
   <block id="b9721a35a6c374ded595576ccbd2f789" category="paragraph">次のワークフローは、バックアップ処理の実行順序を示しています。</block>
   <block id="6a9192ab011aeeddc22793310691a1e4" category="image-alt">sap_HANA のバックアップワークフロー</block>
-  <block id="bf62a235cd24baabab2de8cbe3e62354" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterのコマンドレットのヘルプを使用するか、コマンドレットのリファレンス情報を参照してください。<block ref="12abf3d0b43747b4f372f737c28b4029" category="inline-link-rx"></block>です。</block>
   <block id="ffaafcbad8fa7abfb6f9166b4bc76388" category="doc">SAP HANAのバックアップ処理をキャンセルする</block>
   <block id="e53ba889508b719f73b0223755d7a145" category="summary">SnapCenter を使用してバックアップをクローニングすることができます。クローニングはプライマリとセカンダリのどちらのバックアップからも実行できます。</block>
   <block id="cc9ec1117ac60bf06e35d58497993679" category="doc">SAP HANAデータベースのバックアップをクローニング</block>
@@ -4044,7 +4034,6 @@
   <block id="294b56a283e4d5bb64865a3cf0a721fa" category="list-text">DINSTALL_LOG_name は、ログファイルの名前を指定します。</block>
   <block id="b3f72639442ac8dbec9806a234d5e8db" category="list-text">次のコマンドを入力して、 =&lt;installation directory&gt;/NetApp/snapcenter /cscc /etc/SC_SMS_Services.properties ファイルを編集し、 plugins/enabled=hana ： 3.0 パラメータを追加します。</block>
   <block id="550b8e3545b2126ab5138fd027e787fa" category="list-text">Add-Smhostコマンドレットと必要なパラメータを使用して、SnapCenterサーバにホストを追加します。</block>
-  <block id="35589ff18439cf664f77808ddb86a7d5" category="paragraph">コマンドで使用できるパラメータとその説明については、 RUNNING Get Help command_name _ を使用して参照できます。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="6caa4afe72478c59bf8ac3860bb47274" category="doc">[Activity]ペインでSAP HANAデータベースのデータ保護処理を監視する</block>
   <block id="28fcd30ab7740350640e0c975b072b39" category="doc">SAP HANAデータベースのクローニング処理を監視する</block>
   <block id="4b0b8f3dcc1d02bb62d5a7533b295209" category="summary">SnapCenter Jobs ページを使用して、各バックアップ処理の進捗状況を監視できます。進捗状況を確認して、いつ完了したか、問題が発生していないかを確認できます。</block>
@@ -4134,7 +4123,6 @@
   <block id="dd5f630f41cdfc02249f05e881feeef5" category="summary">リストアとリカバリのワークフローには、計画、リストア処理の実行、および処理の監視が含まれます。</block>
   <block id="e30c3d908a4ed515e16791b672cc0709" category="doc">リストアのワークフロー</block>
   <block id="f221802dd348fa7fec376c674a7bceda" category="paragraph">次のワークフローは、リストア処理の実行順序を示しています。</block>
-  <block id="8932ab6e3b2afa64d560fca67a0712b7" category="paragraph"><block ref="12abf3d0b43747b4f372f737c28b4029" category="inline-link-rx"></block>です。</block>
   <block id="59d768705f8a463584a92c34f8b26770" category="summary">SnapCenter は、クレデンシャルを使用して SnapCenter 処理を実行するユーザを認証しますSnapCenter プラグインのインストールに必要なクレデンシャル、およびデータベースや Windows ファイルシステムでデータ保護処理を実行するための追加のクレデンシャルを作成する必要があります。</block>
   <block id="8f088fc353589a53b22d09fce118b2a6" category="doc">SnapCenter Plug-in for SAP HANA Databaseのクレデンシャルを設定する</block>
   <block id="83a4564a02eccf5fe52d1422b54a7171" category="paragraph">Linuxホストにプラグインをインストールするには、クレデンシャルを設定する必要があります。</block>
@@ -4663,7 +4651,6 @@
   <block id="fab91412eb5d45bdeeca565417bd43bb" category="summary">バックアップのワークフローには、計画、バックアップするリソースの特定、バックアップポリシーの管理、リソースグループの作成とポリシーの適用、バックアップの作成、処理の監視が含まれます。</block>
   <block id="33e8da2f20646df222fc0acf35201fe4" category="doc">カスタムプラグインリソースのバックアップ</block>
   <block id="f395a8aee7b6b7007a1b6a64b54468f1" category="image-alt">バックアップのワークフロー</block>
-  <block id="e3eb3098d9512640ba3691ccfbed50f5" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、<block ref="b70cb1971d6e57b9289aed553ef357cb" category="inline-link-rx"></block></block>
   <block id="edc25de414c7fe73d241458dab7bca2b" category="summary">個々のカスタムプラグインリソースがどのリソースグループにも含まれていない場合は、のリソースページからリソースをバックアップできます。リソースはオンデマンドでバックアップできます。また、リソースにポリシーが適用され、スケジュールが設定されている場合は、スケジュールに従って自動的にバックアップが実行されます。</block>
   <block id="8ffa4ba0dd2df5995fd397c72a149679" category="doc">個 々 のカスタムプラグインリソースのバックアップ</block>
   <block id="2b88427244b62aacd4debde72476dcb0" category="paragraph">をクリックし <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>、ホスト名とリソースタイプを選択してリソースをフィルタリングします。そのあとに<block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block>をクリックすると、フィルタ ペインが閉じます。</block>
@@ -4696,12 +4683,10 @@
   <block id="d51b1b50a87024de88cbdf1b6d828c21" category="paragraph">新しいバックアップポリシーを作成する例を次に示します。</block>
   <block id="76ff1ceb8558ff2b4e47757b810cbdef" category="doc">カスタムプラグインのバックアップ処理をキャンセルする</block>
   <block id="8c922e6a0134954b667b072d00b58ce3" category="doc">PowerShellコマンドレットを使用したバックアップのクローニング</block>
-  <block id="9b4a73dc1c87ef95e6224c8753affd51" category="paragraph">PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="e8afddd41cf3a716324442f7a4538460" category="list-text">Get-SmBackupコマンドレットまたはGet-SmResourceGroupコマンドレットを使用してクローニングできるバックアップの一覧を表示します。</block>
   <block id="b92d70c39b6e5b77f828b04b1f8cf2e7" category="paragraph">この例では、指定したリソースグループに関する情報を表示しています。</block>
   <block id="490bfe5ade57157a35bf58b686acb1cf" category="list-text">New-SmCloneコマンドレットを使用して、クローンリソースグループまたは既存のバックアップからクローニング処理を開始します。</block>
   <block id="e734e6e2e702d38ebab6ed3c050a5e72" category="doc">カスタムプラグインリソースのバックアップをクローニング</block>
-  <block id="10fe11299ffddacc5ffb826021d50abb" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="2c680d95270ab9050da54ca67f598551" category="summary">SnapCenter を使用してバックアップをクローニングすることができます。クローニングはプライマリとセカンダリのどちらのバックアップからも実行できます。クローニング処理の機能は、使用するプラグインによって異なります。</block>
   <block id="569002e953b26f14a2da67d9ad9dcc73" category="doc">バックアップからのクローニング</block>
   <block id="81c54d2e986218192c378df7d2c3b960" category="list-text">リソースまたはリソースグループをバックアップしておく必要があります。</block>
@@ -4817,7 +4802,6 @@
   <block id="6a2ca7ed888feb82f4f0e5778ca2b209" category="list-text">[*Post ops *] ページで、 mount コマンドおよび post restore コマンドを入力して、リストア・ジョブの実行後に実行します。</block>
   <block id="53582adf49551bf81650e7c9447e3a03" category="paragraph">また、送信者と受信者のEメールアドレス、およびEメールの件名を指定する必要があります。SMTP は、 [* 設定 * &gt; * グローバル設定 * （ * Settings * &gt; * Global Settings * ） ] ページでも設定する必要があります。</block>
   <block id="d586cfbb655ff9a83e5820c52931584f" category="doc">カスタムプラグインリソースのリストア</block>
-  <block id="f1472e722e81a79d38810332425a4e76" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="b70cb1971d6e57b9289aed553ef357cb" category="inline-link-rx"></block>。</block>
   <block id="08bd15b8d89877f65879f0e9486f22f7" category="doc">SnapCenterカスタムプラグインのクレデンシャルを設定</block>
   <block id="f3f82abc9f5d28fa0238928ccce9b6d3" category="list-text">Custom Plug-ins アプリケーション</block>
   <block id="448e40b8997cf376a098c21d0c4abd9a" category="paragraph">プラグインは、リソースの追加時に選択または作成されたクレデンシャルを使用します。データ保護処理中にクレデンシャルが不要なリソースの場合は、クレデンシャルを「 * なし」に設定できます。</block>
@@ -4953,7 +4937,6 @@
   <block id="0f14951f7fd1d656890413b5b92b9059" category="summary">SnapCenterを使用すると、1つ以上のバックアップをアクティブファイルシステムにリストアして、Exchangeデータベースをリストアできます。</block>
   <block id="c37b0bdb3c7a24db287508745921aed4" category="paragraph">次のワークフローは、Exchangeデータベースリストア処理の実行順序を示しています。</block>
   <block id="aa6ca9252fe71f2526184035732777e9" category="paragraph"><block ref="aa6ca9252fe71f2526184035732777e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="43fd8846b62a01de615c215f6601836d" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップとリストアの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="4ca48d63db1547d2aa6b271f22219b7b" category="doc">SnapCenter Plug-in for Microsoft Windowsおよびfor Microsoft Exchange Serverでサポートされるストレージタイプ</block>
   <block id="924dbab7608ad7bebe0adaf9e15b8542" category="paragraph">Windows Server では、 SnapCenter プロビジョニングとデータ保護がサポートされます。サポートされているバージョンの最新情報については、を参照して <block ref="c16ce45673244a1fe516b0ed4d92ee5c" category="inline-link-rx"></block>ください。</block>
   <block id="ea29cdcae37307c1c67337a9e8dca9ea" category="paragraph">物理的な互換性のみ</block>
@@ -5050,7 +5033,6 @@
   <block id="c7f88523eb9618512db4280fed17383f" category="paragraph">この例では、ポリシーとリソースを指定して、新しいExchange Database Availability Group（DAG；データベース可用性グループ）バックアップリソースグループを作成しています。</block>
   <block id="16cb514584e7d79dbe2308dbbf4bbf37" category="paragraph">この例では、セカンダリストレージに新しいバックアップを作成します。</block>
   <block id="691fa56b0f1b19ab3099a9a59ce15434" category="paragraph">次に、特定のジョブIDのジョブサマリレポートを表示する例を示します。</block>
-  <block id="ffc2be1279cc0930ef2358aa6770f7ff" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照してください<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="fd8673b90ff8150879994409704fd7d2" category="doc">Exchangeデータベースのバックアップ処理をキャンセルします</block>
   <block id="ba8cc99b4cfaa3f9d3c3f0a8380082c0" category="doc">Exchangeデータベースのリストア処理をキャンセルします</block>
   <block id="e3da0c6813019670b46683c1327836d3" category="summary">SnapCenter Plug-in for Microsoft Exchange Server を SnapManager for Microsoft Exchange Server と共存できるようにするには、 SnapManager for Microsoft Exchange Server がインストールされている Exchange Server と同じ Exchange Server に SnapCenter Plug-in for Microsoft Exchange Server をインストールし、 SnapManager for Exchange のスケジュールを無効にする必要があります。 および SnapCenter Plug-in for Microsoft Exchange Server を使用して新しいスケジュールとバックアップを設定します。</block>
@@ -6949,7 +6931,6 @@
   <block id="80720ca63de6ce126b5aefa74149e369" category="list-text">クローンを削除する場合は、表でクローンを選択し、<block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>をクリックします。</block>
   <block id="123f58b5f6c3fc41829ae40b968fcda4" category="paragraph">SnapmirrorStatusUpdateWaitTimeに割り当てられている値がより小さい場合は、データボリュームとログボリュームが正常に保護されていても、ミラーとバックアップのバックアップコピーはトポロジページに表示されません。SnapmirrorStatusUpdateWaitTime に割り当てられた値は、 _Set-SmConfigSettings_PowerShell コマンドレットを使用して増やす必要があります。</block>
   <block id="11dbb257c91d345a6a0cee430763b610" category="paragraph">コマンドで使用できるパラメータとその説明については、 Get-Help_command_name _ を実行して取得できます。</block>
-  <block id="b8c0a57d0d6e1f8142053f0c0ddb5706" category="paragraph">または、またはを参照することもできます<block ref="a6fc2394a8b2095d1929066d59f6fcc9" category="inline-link-rx"></block><block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="3e2d2f6a646250c8b750be0ca26e5b46" category="summary">プライマリストレージボリュームまたはセカンダリストレージボリュームを使用してバックアップコピーを検証します。</block>
   <block id="77536321746ee899d10dbbec054c87ce" category="doc">バックアップコピーを検証する場所</block>
   <block id="ebae46e6c1cf802f26210eac01893036" category="doc">Plug-in for SQL Serverのプライマリストレージボリュームまたはセカンダリストレージボリュームを使用したバックアップコピーの検証</block>
@@ -6977,7 +6958,6 @@
   <block id="5ef1f12506dc4d6bf7c9edb9345a5047" category="list-text">SnapCenter環境を設定するために、ストレージシステム接続を追加または割り当て、クレデンシャルを作成します。</block>
   <block id="42e20be165e590208778cbb0b28a11ce" category="list-text">ホストを追加し、プラグインをインストールし、リソースを検出（更新）し、プラグインを設定します。</block>
   <block id="b3721954b25a4acdb3a4229ac3e0b5f8" category="list-text">Invoke-SmConfigureResourcesを実行して、既存のMicrosoft SQL ServerデータベースをローカルディスクからNetApp LUN（またはその逆）に移動します。</block>
-  <block id="c58fd0a9a81f974b5b3b5db215383ed4" category="paragraph">コマンドレットの実行方法については、を参照してください。<block ref="b70cb1971d6e57b9289aed553ef357cb" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">VMware RDM LUNまたはVMDKにあるSQLデータベースをSnapCenter Serverを使用して保護する場合は、SnapCenter Plug-in for VMware vSphereを導入してSnapCenterに登録する必要があります。詳細については、 SnapCenter Plug-in for VMware vSphere のドキュメントを参照してください。</block>
   <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
   <block id="697a526808255bffff4fb836c66f8996" category="paragraph">詳細については、 SnapCenter のインストールに関する説明を参照してください。</block>
@@ -7130,8 +7110,6 @@
   <block id="bc6cdf099cec9fa3dce7fb43c644e659" category="section-title">SnapCenter Plug-in for Microsoft SQL Serverの要件</block>
   <block id="4bd535cc745449316aa463a5f52133d6" category="paragraph">ローカル管理者権限があり、リモートホストに対するローカルログイン権限があるユーザが必要です。クラスタノードを管理する場合は、クラスタ内のすべてのノードに対する管理者権限を持つユーザが必要です。</block>
   <block id="cf94e6be5912bb698bcc03d64c605bc4" category="paragraph">SQL Serverに対するsysadmin権限を持つユーザが必要です。このプラグインはMicrosoft VDI Frameworkを使用しますが、これにはsysadminアクセスが必要です。</block>
-  <block id="aa829ddf1acbdd2a8aa6a61635c33dec" category="inline-link-macro">アーカイブバックアップをインポートする</block>
-  <block id="b06af5128852d56366a94b0a3584c1a6" category="paragraph">SnapManager for Microsoft SQL Serverを使用していて、SnapManager for Microsoft SQL ServerからSnapCenterにデータをインポートする場合は、を参照してください。 <block ref="0079f46f6850618db9fdf32f5f6051e0" category="inline-link-macro-rx"></block></block>
   <block id="3d18a8ecd9e4c9d6e8109fc7dc46902c" category="summary">SnapCenter サーバおよび SnapCenter Plug-in for Microsoft SQL Server をインストールする手順について説明します。</block>
   <block id="303271a6fa371310673fc55e65bf3af0" category="doc">SnapCenter Plug-in for SQL Serverのインストールのクイックスタート</block>
   <block id="e05bc1fb0d09110d2709b8329ca82a1f" category="paragraph">SnapCenter ServerおよびSnapCenter Plug-in for Microsoft SQL Serverのインストール手順をまとめたものです。</block>
@@ -7185,7 +7163,6 @@
   <block id="a1a0f86f12eb6f7b0a51545fae87d6ed" category="paragraph">次のワークフローは、バックアップ処理の実行順序を示しています。</block>
   <block id="a9a36931adb350bdf3480cb9845a8fc8" category="image-alt">SCSQL バックアップワークフロー</block>
   <block id="780c1b490607a3963a4db9b069dbf1e2" category="admonition">ネットアップ以外のLUN、破損したデータベース、またはリストア中のデータベースを選択した場合、[Resources]ページの[Backup Now]、[Restore]、[Manage Backups]、および[Clone]オプションは無効になります。</block>
-  <block id="71b62e4317e175b2ef48e37dc1b6938e" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、リカバリ、検証、クローニングの各処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、<block ref="b70cb1971d6e57b9289aed553ef357cb" category="inline-link-rx"></block></block>
   <block id="70a3b8963fff53a1f81a125297906687" category="section-title">SnapCenter でのデータベースのバックアップ方法</block>
   <block id="0855d4a7efcc5d7db4786a318d5517e6" category="paragraph">SnapCenterでは、Snapshotテクノロジを使用して、LUNまたはVMDK上にあるSQL Serverデータベースをバックアップします。SnapCenterは、データベースのSnapshotを作成することによってバックアップを作成します。</block>
   <block id="05e0444569b01c1a835c376c06e5d120" category="paragraph">[Resources]ページでフルデータベースバックアップの対象となるデータベースを選択すると、同じストレージボリューム上の他のすべてのデータベースがSnapCenterによって自動的に選択されます。LUNまたはVMDKにデータベースが1つだけ格納されている場合は、データベースを個別に選択解除したり、再度選択したりできます。LUNまたはVMDKに複数のデータベースが格納されている場合は、それらのデータベースをグループとして選択解除したり、再度選択したりする必要があります。</block>
@@ -7772,7 +7749,6 @@
   <block id="200173e810f24d588054234ea90379a4" category="paragraph">新しいバックアップの横に「i」アイコンが表示され、これらのバックアップがDRモード中に作成されたことを示します。</block>
   <block id="5e7078fc2c5f11497c9f2a56ffd9b736" category="list-text">フェイルオーバー中に作成されたSnapCenter Plug-in for SQL Serverのバックアップは、UIまたは次のコマンドレットを使用して削除できます。<block ref="deedcb4a01370ff7adf6a8a79cd7d1e0" prefix=" " category="inline-code"></block></block>
   <block id="b46fdb28b1bf03616f61fcda6f266b96" category="list-text">フェイルオーバー後に一部のリソースをDR以外のモードにする場合は、次のコマンドレットを使用します。<block ref="c15a3d6bef369bbee5b5a45642d3de86" prefix=" " category="inline-code"></block></block>
-  <block id="6f5877ce1b560e325ddcea6ec5f7f838" category="paragraph">詳細については、を参照して<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>ください。</block>
   <block id="7ccaeb1e46c3ede7b5c8c6431b09266a" category="list-text">SnapCenterサーバは、DRモードまたは非DRモードの個 々 のストレージリソース（SQLデータベース）を管理しますが、DRモードまたは非DRモードのストレージリソースを含むリソースグループは管理しません。</block>
   <block id="916ae24ede0fe52b13d762f08bbe7503" category="paragraph">[ コピーの管理（ Manage Copies ） ] ビューの次のアイコンを確認して、プライマリストレージまたはセカンダリストレージ（ミラーコピーまたはバックアップコピー）でバックアップとクローンが使用可能かどうかを判断できます。</block>
   <block id="087beac5c653a245020b5cf6e4d5e0bb" category="paragraph">選択したリソースがクローンデータベースの場合はクローンデータベースを保護し、[Topology]ページにクローンのソースが表示されます。詳細 * をクリックして、クローニングに使用されたバックアップを表示します。</block>
@@ -7920,7 +7896,6 @@
   <block id="039222161d01f984ede1d0056c724389" category="doc">Windowsファイルシステムのバックアップ</block>
   <block id="6213c4aa6c3d759b708f391038b515e2" category="paragraph">スケジュールを設定して、複数のサーバで同時に複数のバックアップを実行することができます。同じリソースに対してバックアップ処理とリストア処理を同時に実行することはできません。</block>
   <block id="0d267aa6a5980521c50d3bb9b62d9419" category="image-alt">SCE バックアップワークフロー</block>
-  <block id="532fe54f91f8ebb96ac9f6f04b4541c1" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプまたはを<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block> 参照してください。</block>
   <block id="2b286ead8eb2ff2974da65dbfdfc72f0" category="summary">Plug-in for Windows をインストールする前に、一定のインストール要件について理解しておく必要があります。</block>
   <block id="bca5d73b25b97404586748bb0cc0c9ea" category="doc">SnapCenter Plug-in for Microsoft Windowsのインストール要件</block>
   <block id="f184953814e9e5f19cb72339478905fc" category="paragraph">ユーザが Plug-in for Windows の使用を開始するためには、 SnapCenter 管理者が事前に SnapCenter サーバをインストールして設定し、前提条件となるタスクを実行する必要があります。</block>
@@ -8631,7 +8606,6 @@
   <block id="af70373152fc173748b0316e804ebfb9" category="list-text">（オプション）古いホストをSnapCenterから削除します。</block>
   <block id="0e8b55402d6627c0f8102010e3494744" category="inline-link-macro">swagger API Web ページを使用して REST API にアクセスする方法</block>
   <block id="38da9351af8aca2c80c95ea491874f49" category="paragraph">APIの詳細については、Swaggerページにアクセスする必要があります。 を参照して <block ref="2025c045f65fe4c2f57ea8e2f34bc22a" category="inline-link-macro-rx"></block></block>
-  <block id="ffb7780c8ab56bba323c1d49615fbd2f" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="da44a82b2eca4a427c9d0ddf42742802" category="summary">新しいホストに同じバージョンのSnapCenterサーバをインストールしてから、APIを実行するか、コマンドレットを実行して古いサーバからSnapCenterをバックアップし、新しいサーバにリストアします。</block>
   <block id="9c52ed84ef99dc638e8657ea109fe6b3" category="doc">SnapCenterサーバホストの機器更改</block>
   <block id="1fb1193170b56fa298c04a30fd827101" category="paragraph">SnapCenterサーバホストの更新が必要な場合は、同じバージョンのSnapCenterサーバを新しいホストにインストールし、APIを実行して古いサーバからSnapCenterをバックアップし、新しいサーバにリストアできます。</block>
@@ -8754,7 +8728,6 @@
   <block id="c1fb7c552ac7beaf17dc346fda22eff6" category="list-text">リソースグループを削除すると、関連付けられているスケジュールもすべて削除されます。</block>
   <block id="622c9e28dad13fa5c04d47d33d343831" category="list-text">別のホストと共有しているリソースグループがホストにある場合にそのホストを削除すると、リソースグループも削除されます。</block>
   <block id="759ef57c3be2a273728558ce141e699a" category="list-text">運用停止されたプラグインホストまたは到達不能なプラグインホストを削除するには、 _Remove-SmHost_cmdlet を使用してください。</block>
-  <block id="d9a37470fe419a246aa1213c6650926f" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block></block>
   <block id="3fd5f1108d9e6e2f31a2b951b94fcc66" category="list-text">ホストの削除にかかる時間は、バックアップの数と保持設定によって異なります。これは、各コントローラからSnapshotが削除され、メタデータが消去されるためです。</block>
   <block id="7d86ca24490dce77097f6dbeb74b96fc" category="list-text">[ホスト]*ページで、*[管理対象ホスト]*をクリックします。</block>
   <block id="5d892beace7b1624b071044ece982dcc" category="list-text">削除するホストを選択し、 * Remove * をクリックします。</block>
@@ -8770,7 +8743,6 @@
   <block id="fee0bec9fecb6576229640dcf9eec620" category="paragraph">SnapCenter からホストを削除する場合、 SnapCenter はホストを削除する前にホスト上のすべてのプラグインパッケージをアンインストールします。</block>
   <block id="cd9cae3233179ab0aa5b93a449869d50" category="list-text">SnapCenter GUI は、一度に 1 つのホストからプラグインを削除します。</block>
   <block id="e4b51b04ea7a4e9b027ffb18024a9938" category="paragraph">SnapCenter GUI を使用する場合、プラグインをアンインストールできるホストは一度に 1 つです。ただし、複数のアンインストール処理を同時に実行できます。</block>
-  <block id="54f98e61788c175cab05b17b3fd5f1f6" category="paragraph">また、 _Uninstall-sSmHostPackage_ コマンドレットと必要なパラメータを使用して、複数のホストからプラグインをアンインストールすることもできます。コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="7fb83b6cbb928f4072ab9a7c4ce09c24" category="inline-link-rx"></block>。</block>
   <block id="a4ad00e40c8d026de37f699c1cdc43f2" category="admonition">SnapCenterサーバがインストールされているホストからSnapCenter Plug-ins Package for Windowsをアンインストールすると、SnapCenterサーバのインストールが破損します。SnapCenterサーバが不要になったことが確実な場合を除き、SnapCenter Plug-ins Package for Windowsをアンインストールしないでください。</block>
   <block id="b431698bc085bcde968e1e3d9582578a" category="list-text">[管理対象ホスト]ページで、プラグインまたはプラグインパッケージをアンインストールするホストを選択します。</block>
   <block id="9e8fa339338bb378f91b2bc7b281c6c6" category="list-text">削除するプラグインの横にある * 削除 * &gt; * 送信 * をクリックします。</block>
@@ -9025,4 +8997,37 @@
   <block id="5438f8c09e5ea2be33bd2ce16c8b5123" category="admonition">SnapCenter 5.0以降では、SVM管理者ユーザはREST APIでのみサポートされます。SVM管理者以外を使用してロールを作成する場合は、ZAPIを使用してください。</block>
   <block id="3955db71dd681bf23ceee85c567a0129" category="admonition">SnapCenter 5.0以降では、クラスタ管理者ユーザはREST APIでのみサポートされます。クラスタ管理者以外のユーザを使用してロールを作成する場合は、ZAPIを使用してください。</block>
   <block id="f5a551e6a3161ca6d9ee33d926d734d5" category="list-text">Microsoft Edge 110.0.1587.17以降</block>
+  <block id="6f400162ec8377326d6ed20509864d33" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="d6e7785109e274460567a4ffe4737637" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>。</block>
+  <block id="9dd45e8b23620fb41f81dfb469f02e6e" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="585dea66428ca1c9f6d9508c36a79bc5" category="inline-link-rx"></block>。</block>
+  <block id="61e88a8e74dce51e70cb2cc1a7c69268" category="paragraph">Windowsコマンドレットの詳細については、を参照してください<block ref="0f8b6e6827088c3275373fadf9b5793d" category="inline-link-rx"></block>。</block>
+  <block id="b751ba084a16efebd3558bc5acecb8ca" category="paragraph">詳細については、を参照してください<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="c265daac7397e94019d709fd691f8c5e" category="paragraph">コマンドレットの詳細については、を参照してください<block ref="27efb9187bc662f39802c23be17e8d78" category="inline-link-rx"></block>。</block>
+  <block id="5407aa5ab5ceed15da5776ca60b79b67" category="list-text">コマンドレットで使用できるパラメータとその説明は、を実行して確認できます<block ref="b306feeed6ddda97d08ef1f2a0ba62d9" prefix=" " category="inline-code"></block>。または、を参照することもできます<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>。</block>
+  <block id="f0f4b5c48e00c36f00ea22035a2a434b" category="paragraph">コマンドレットで使用できるパラメータとその説明は、Get-Help Command_nameを実行して確認できます。または、を参照することもできます<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>。</block>
+  <block id="d21e2e742ad1900ea4aa0a2f2bc6e6a7" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照して<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>ください。</block>
+  <block id="311060ad57e72c6c723e98262626814a" category="paragraph">SnapCenter GUIに加えて、PowerShellコマンドレットを使用してスクリプトを作成し、設定、バックアップ、リストアの各処理を実行できます。一部のコマンドレットは、SnapCenterのリリースごとに変更されている場合があります。詳細については、を<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> 参照してください。</block>
+  <block id="e160dda6499084db01c7ce6491af2f40" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 Get-Help_command_name _ を実行して取得できます。または、<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block></block>
+  <block id="12a10204767c0f7e57fe28e87704e352" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterのコマンドレットのヘルプを使用するか、コマンドレットのリファレンス情報を参照してください。<block ref="56913781355754455b11c6b105597ff3" category="inline-link-rx"></block>です。</block>
+  <block id="f8ef885da891261fd4629d7fae69bfa4" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>。</block>
+  <block id="fa83850da452d1673de1d2a4b7331a1d" category="paragraph">コマンドで使用できるパラメータとその説明については、 RUNNING Get Help command_name _ を使用して参照できます。または、を参照することもできます<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>。</block>
+  <block id="ab1766e2f818502d241cbf5a342c79b2" category="paragraph"><block ref="a6dcfd82d7351176f300ceb232e12596" category="inline-link-rx"></block>です。</block>
+  <block id="3b397e3155a4fe68412110902ea159be" category="paragraph"><block ref="fd02fd52ea699b6c565ffa85f9c639d5" category="inline-link-rx"></block>です。</block>
+  <block id="675571f27ff34eb04cb3a55743875e81" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、<block ref="4853c0cbcda9b8774420b21ed388016e" category="inline-link-rx"></block></block>
+  <block id="f38b252c1f8d9117dcfdbe7e39979f64" category="paragraph">PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>。</block>
+  <block id="9ab0983e48953326fc2d6eb5ded6744b" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>。</block>
+  <block id="cc58ef451c91e8045f24a0df16beeaa7" category="paragraph">コマンドで使用できるパラメータとその説明については、 RUNNING Get Help command_name _ を使用して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="a5b2a523f606cadb48e47d94d5985ec8" category="paragraph"><block ref="56913781355754455b11c6b105597ff3" category="inline-link-rx"></block>です。</block>
+  <block id="693493ce5c57eb6ebfff1d2776684a17" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block>。</block>
+  <block id="f42c62b18df55cf942fb24bb3ee288f4" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップとリストアの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、を参照してください<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>。</block>
+  <block id="2544d05ede06cebf7315f66f71d1981b" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照してください<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="e14e2cb70b96e6d6c74bfe23c3242651" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="27efb9187bc662f39802c23be17e8d78" category="inline-link-rx"></block>。</block>
+  <block id="2f21ba9e0823ddad0adeb90168a29736" category="paragraph">または、またはを参照することもできます<block ref="a6fc2394a8b2095d1929066d59f6fcc9" category="inline-link-rx"></block><block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="bacc4fa66c7c0e7cf05e8279e406630c" category="paragraph">コマンドレットの実行方法については、を参照してください。<block ref="12354717cef138316a612491b8cafb2f" category="inline-link-rx"></block></block>
+  <block id="f9cd67ccfd2ca856bf584c485c3b7e41" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、リカバリ、検証、クローニングの各処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプを使用するか、<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block></block>
+  <block id="c2d1ddf3b961067ebcce0b89f65c664a" category="paragraph">詳細については、を参照して<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>ください。</block>
+  <block id="7b88ad36ed2f7f0af71be3ce91a7b7b8" category="paragraph">PowerShellコマンドレットを手動またはスクリプトで使用して、バックアップ、リストア、クローニングの処理を実行することもできます。PowerShellコマンドレットの詳細については、SnapCenterコマンドレットのヘルプまたはを<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> 参照してください。</block>
+  <block id="220234cac5f472ab02817a1099c26930" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="f2aad7603f69fb3a7bd74475faf67941" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block></block>
+  <block id="1c3e9ee54ab1c8453c33bb85580d9d14" category="paragraph">また、 _Uninstall-sSmHostPackage_ コマンドレットと必要なパラメータを使用して、複数のホストからプラグインをアンインストールすることもできます。コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
 </blocks>
