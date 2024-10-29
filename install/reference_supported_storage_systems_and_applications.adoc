@@ -13,7 +13,7 @@ summary: サポートされるストレージシステム、アプリケーシ�
 [role="lead"]
 サポートされるストレージシステム、アプリケーション、およびデータベースを確認しておく必要があります。
 
-* SnapCenter では、データを保護するために ONTAP 8.3.0 以降がサポートされています。
+* SnapCenterは、データを保護するためにONTAP 9 .8以降をサポートしています。
 * SnapCenterはAmazon FSx for NetApp ONTAPをサポートしており、SnapCenterソフトウェア4.5 P1パッチリリースからデータを保護します。
 +
 Amazon FSx for NetApp ONTAPを使用している場合は、データ保護処理を実行するために、SnapCenterサーバホストプラグインを4.5 P1以降にアップグレードしてください。

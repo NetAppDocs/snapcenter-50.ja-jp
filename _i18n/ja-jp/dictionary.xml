@@ -2349,7 +2349,6 @@
   <block id="ba7cbf773bd0f0004c4d97fba5034cdb" category="summary">サポートされるストレージシステム、アプリケーション、およびデータベースを確認しておく必要があります。</block>
   <block id="1e1ed4854c77f284f3e97b0843b6e570" category="doc">サポートされるストレージシステムとアプリケーション</block>
   <block id="ed3518bf4a914f119b6bdecebdd5768f" category="paragraph">サポートされるストレージシステム、アプリケーション、およびデータベースを確認しておく必要があります。</block>
-  <block id="c8f093093364799903de04dd2e4130fd" category="list-text">SnapCenter では、データを保護するために ONTAP 8.3.0 以降がサポートされています。</block>
   <block id="213ee580d561421ab50f46ea0b22affa" category="list-text">SnapCenterはAmazon FSx for NetApp ONTAPをサポートしており、SnapCenterソフトウェア4.5 P1パッチリリースからデータを保護します。</block>
   <block id="dc39fb71951ab3bfb20cab9c1beb9446" category="paragraph">Amazon FSx for NetApp ONTAPを使用している場合は、データ保護処理を実行するために、SnapCenterサーバホストプラグインを4.5 P1以降にアップグレードしてください。</block>
   <block id="cc788b7e72b2a734dd0985bd1e0e9fe3" category="inline-link">Amazon FSX for NetApp ONTAP のドキュメント</block>
@@ -9030,4 +9029,5 @@
   <block id="220234cac5f472ab02817a1099c26930" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
   <block id="f2aad7603f69fb3a7bd74475faf67941" category="paragraph">コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block></block>
   <block id="1c3e9ee54ab1c8453c33bb85580d9d14" category="paragraph">また、 _Uninstall-sSmHostPackage_ コマンドレットと必要なパラメータを使用して、複数のホストからプラグインをアンインストールすることもできます。コマンドレットで使用できるパラメータとその説明については、 RUN_Get-Help コマンド _NAME_ を実行して参照できます。または、を参照することもできます<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>。</block>
+  <block id="dddf91700099a41aae12a91632f8108f" category="list-text">SnapCenterは、データを保護するためにONTAP 9 .8以降をサポートしています。</block>
 </blocks>
