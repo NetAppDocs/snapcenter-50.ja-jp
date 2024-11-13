@@ -278,7 +278,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/Sn
 セカンダリレプリケーションでは、SnapLockの有効期限によってプライマリSnapLockの有効期限がロードされます。[Topology]ページの[Refresh]*ボタンをクリックすると、ONTAPから取得されたセカンダリおよびプライマリのSnapLock有効期限が更新されます。
 
 +
-を参照して link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["[Topology]ページでのSQL Serverのバックアップとクローンの表示"]
+を参照して link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["[Topology]ページでのSQL Serverのバックアップとクローンの表示"]
 
 
 
@@ -298,7 +298,7 @@ SnapLockがONTAPのセカンダリ（SnapLock Vault）にのみ設定されて�
 SnapLock Vaultの詳細については、を参照してください。 https://docs.netapp.com/us-en/ontap/snaplock/commit-snapshot-copies-worm-concept.html["SnapVaultデスティネーションでSnapshotコピーをWORM状態にコミットする"]
 
 +
-を参照して link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["[Topology]ページでのSQL Serverのバックアップとクローンの表示"]
+を参照して link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["[Topology]ページでのSQL Serverのバックアップとクローンの表示"]
 
 
 

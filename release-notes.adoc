@@ -7,7 +7,7 @@ summary: このリリースの SnapCenter サーバおよび SnapCenter プラ�
 = リリースノート
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

@@ -188,7 +188,7 @@ PowerShell コマンドレットの詳細については、 SnapCenter のコマ
 
 
 
-https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmll["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]です。
+https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]です。
 
 
 

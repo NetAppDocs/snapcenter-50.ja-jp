@@ -231,7 +231,7 @@ NOTE: トライアルライセンスを手動で削除する必要があるの�
 .. SnapCenterAdminアカウントのSnapCenterサーバとの接続セッションを開始するには、Open-SmConnectionコマンドレットを実行します。
 .. Set-SmRepositoryPasswordを実行してMySQLパスワードをリセットします。
 +
-コマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmllll["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+コマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 
 

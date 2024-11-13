@@ -55,9 +55,6 @@ SnapCenterの主な機能は次のとおりです。
 +
 ユーザ定義のSnapCenterプラグインを作成するフレームワークを提供することで、他の標準またはカスタムのアプリケーションやデータベースでもデータ保護がサポートされます。これにより、同じ単一コンソールから他のアプリケーションやデータベースのデータを保護できます。このフレームワークを活用することで、NetAppはIBM DB2、MongoDB、MySQLなどのSnapCenterカスタムプラグインをNetAppオートメーションストアでリリースしました。
 
-+
-https://automationstore.netapp.com/home.shtml["NetAppストレージ自動化ストア"^]
-
 * ポリシーベースのバックアップ
 +
 ポリシーベースのバックアップでは、NetApp Snapshotテクノロジを活用して、スペース効率に優れた、アプリケーションと整合性のあるディスクベースのバックアップを高速で作成できます。必要に応じて、既存の保護関係を更新して、セカンダリストレージへのバックアップの保護を自動化することもできます。
@@ -86,7 +83,7 @@ SnapCenterには、ほとんどの機能をREST APIが含まれており、任�
 REST APIの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter/sc-automation/overview_rest_apis.html["REST APIの概要"]。
 
 +
-Windowsコマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmllllll["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+Windowsコマンドレットの詳細については、を参照してください https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 +
 UNIXコマンドの詳細については、を参照してください https://library.netapp.com/ecm/ecm_download_file/ECMLP2886896["SnapCenter ソフトウェアコマンドリファレンスガイド"^]。
@@ -177,9 +174,6 @@ SnapCenterは、SnapCenter ServerプラグインとSnapCenterプラグインで�
 
 
 * SnapCenterカスタムプラグイン
-+
-カスタムプラグインはコミュニティでサポートされており、からダウンロードできます https://automationstore.netapp.com/home.shtml["NetAppストレージ自動化ストア"^]。
-
 
 
 SnapCenter Plug-in for VMware vSphere（旧NetAppデータブローカー）は、仮想化されたデータベースおよびファイルシステムに対するSnapCenterのデータ保護処理をサポートするスタンドアロンの仮想アプライアンスです。
@@ -286,7 +280,6 @@ LinuxまたはWindows
  a| 
 カスタムプラグイン
  a| 
-https://automationstore.netapp.com/home.shtml["NetAppストレージ自動化ストア"^]
  a| 
 フアイルシステムノハツクアツフ、Plug-in for Windows
  a| 
@@ -369,8 +362,6 @@ SANデバイス上に構築されたSANネイティブデバイス、ファイ�
 * では、別のボリュームにバックアップセットのミラーコピーを作成し、ディスクツーディスクバックアップレプリケーションを実行できます。
 * Windows環境とLinux環境の両方をサポートします。Windows環境では、カスタムプラグインを使用したカスタムアプリケーションで、必要に応じてSnapCenter Plug-in for Microsoft Windowsを使用してファイルシステムの整合性のあるバックアップを作成できます。
 
-
-SnapCenterソフトウェア用のMySQL、DB2、およびMongoDBカスタムプラグインサンプルは、からダウンロードできます https://automationstore.netapp.com/home.shtml["NetAppストレージ自動化ストア"^]。
 
 
 NOTE: MySQL、DB2、MongoDBのカスタムプラグインは、NetAppコミュニティでのみサポートされます。

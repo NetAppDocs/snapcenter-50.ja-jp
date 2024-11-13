@@ -21,7 +21,7 @@ SnapCenterサーバのMFA機能は、PowerShellコマンドを使用して有効
 
 .タスクの内容
 * 同じAD FSで他のアプリケーションが設定されている場合、SnapCenterはSSOベースのログインをサポートします。一部のAD FS構成では、AD FSセッションの持続性に応じて、セキュリティ上の理由からSnapCenterでユーザ認証が必要になる場合があります。
-* コマンドレットで使用できるパラメータとその説明は、を実行して確認できます `Get-Help command_name`。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmlll["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
+* コマンドレットで使用できるパラメータとその説明は、を実行して確認できます `Get-Help command_name`。または、を参照することもできます https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["SnapCenter ソフトウェアコマンドレットリファレンスガイド"^]。
 
 
 .開始する前に

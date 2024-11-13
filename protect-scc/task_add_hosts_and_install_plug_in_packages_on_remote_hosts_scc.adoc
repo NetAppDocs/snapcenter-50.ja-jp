@@ -128,7 +128,7 @@ Storage Plug-inの場合は、フォルダに移動し `_C:\ProgramData\NetApp\S
 SnapCenter サーバにアップロードされたカスタムプラグインが表示されます。
 
 +
-MySQL または DB2 アプリケーションを管理する場合は、ネットアップが提供している MySQL および DB2 のカスタムプラグインを使用できます。MySQLとDB2のカスタムプラグインは、で入手できます。 https://automationstore.netapp.com/home.shtml["NetApp Automation Store の略"]
+MySQLまたはDB2アプリケーションを管理する場合は、NetAppが提供するMySQLおよびDB2のカスタムプラグインを使用できます。
 
 
 
