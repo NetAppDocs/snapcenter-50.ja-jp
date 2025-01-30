@@ -5641,13 +5641,7 @@
   <block id="e3bcbd4b72b9abcfba6dd89fa833c9d7" category="list-text">アプリケーションファイアウォールのタイムアウト値は3時間以上に設定する必要があります。</block>
   <block id="2f66d67da390e5c77db3fc5e681393ab" category="list-text">NFS環境でOracleデータベースを使用している場合は、マウント、クローニング、検証、およびリストアの処理を実行できるように、プライマリストレージまたはセカンダリストレージ用に少なくとも1つのNFSデータLIFを設定しておく必要があります。</block>
   <block id="904e44e9990e7591adda05fc061919d3" category="list-text">SVM に複数のデータパス（ LIF ）がある場合は、 NFS クローンボリュームをマウントするための適切なデータパス（ LIF ）が SnapCenter によって選択されます。ただし、特定のデータパス（LIF）を指定する場合は、Set-SvmPreferredDataPath CLIを実行する必要があります。詳細については、コマンドリファレンスガイドを参照してください。</block>
-  <block id="0d38af714784f793aaf023f367e4c39b" category="list-text">SAN環境でOracleデータベースを使用している場合は、SAN環境が次のガイドに記載されている推奨事項に従って設定されていることを確認してください。</block>
-  <block id="26b193fe4fa8dbe180bbe20800729e6b" category="inline-link">Linux Unified Host Utilities の推奨されるホスト設定</block>
-  <block id="e705af1c7f38eac38e2f493fc039f70e" category="list-text"><block ref="e705af1c7f38eac38e2f493fc039f70e" category="inline-link-rx"></block></block>
-  <block id="e41304e7d689f8fed5c98620228184cf" category="inline-link">Using Linux Hosts with ONTAP storage</block>
-  <block id="4261289fb5bad467a2ad973679d86c14" category="list-text"><block ref="4261289fb5bad467a2ad973679d86c14" category="inline-link-rx"></block></block>
   <block id="b1ada800560d7bd73c2da9a36d6ae229" category="inline-link">AIX Host Utilitiesの影響を受けるホスト設定</block>
-  <block id="9e202af09678a2aeb1c20235b8ed2aad" category="list-text"><block ref="9e202af09678a2aeb1c20235b8ed2aad" category="inline-link-rx"></block></block>
   <block id="ba09c94fed381b580a726fc94531b160" category="list-text">Oracle LinuxまたはRHELオペレーティングシステムのLVMにOracleデータベースがある場合は、最新バージョンの論理ボリューム管理（LVM）をインストールします。</block>
   <block id="8770246977269a639c8c2818412dc3ac" category="list-text">SnapManager for Oracleを使用していて、SnapCenter Plug-in for Oracle Databaseに移行する場合は、sccliコマンドsc-migrateを使用して、SnapCenterのポリシーとリソースグループにプロファイルを移行できます。</block>
   <block id="4c893189fecc8b6e5c41ae931ffd7f89" category="list-text">バックアップレプリケーションが必要な場合は、ONTAPでSnapMirrorとSnapVaultを設定する</block>
@@ -9014,4 +9008,5 @@
   <block id="a67e0e0c5dea92d024cd90ac412f110f" category="paragraph">SnapCenter Plug-in for VMware vSphereのアンインストールの詳細については、https：// docs.vmware.com NetApp /us-ja/sc-plugin-vmware-vsphere/scpivs44_remove_plugin.html[Remove SnapCenter Plug-in for VMware vSphere ^]を参照してください。</block>
   <block id="9370db25bd6766721eb2110afcff56b0" category="image-alt">SnapCenterのアップグレードワークフロー</block>
   <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">SnapCenter ソフトウェアのドキュメント</block>
+  <block id="90fd1a3ce44c78f7c0d4b87a3e5f6ad1" category="list-text">SAN環境でOracleデータベースを使用している場合は、SAN環境がに記載されている推奨事項に従って設定されていることを確認し<block ref="c4f7653512cf02eacb80aa4d3d06e4f7" category="inline-link-rx"></block>てください。</block>
 </blocks>
